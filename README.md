@@ -80,6 +80,19 @@ the final output which has the same resolution as input.
 
 ![Dice Loss](/out/diceloss.png)
 
+## Evalution : IOU (Intersection Over Union)
 
+This competition is evaluated on the mean average precision at different intersection over union thresholds. The IoU of a proposed set of object pixels and a set of true object pixels is calculated as:
+
+IoU(A,B)= (A∩B)/(A∪B)
+
+
+## Results:
+
+### U-net Result
+![U-net Results](/out/U-net-results.png)
+
+### CANET Result
+![CA-net Results](/out/canet-results.png)
 
 
